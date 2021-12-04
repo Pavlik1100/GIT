@@ -60,8 +60,18 @@ git add preferences.json skills.json
 git commit -m "added 2 files preferences.json skills.json"  
 git push  
   
- 13. На веб интерфейсе создать файл bug_report.json. ----- add new file -> заполнить поле названия -> заполнить поле коммита -> создать   
- 14. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
- 15. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
- 16. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
- 17. Синхронизировать внешний и локальный репозиторий JSON
+ 13. На веб интерфейсе создать файл bug_report.json. ----- add new file -> заполнить поле названия файла   
+ 14. Сделать Commit changes (сохранить) изменения на веб интерфейсе. ----- добавить commit в поле "commit changes" -> отметить чекбокс "commit directory to the main branch" -> нажать кнопку "commit changes"
+ 15. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON. ----- выбрать в дериктории файл для редактирования, кликнуть чтобы открыть -> нажать кнопку с карандашом "Edit this file" -> ввести данные в формате JSON  
+
+{
+  "ID": 1,
+  "Title": "Button_'Home'_dont_click",
+  "Steps": "Open_web_and_click_button_'Home'",
+  "Facual_result": "When_button_click_nothing_is_happening",
+  "Expected_result": "When_button_click_we_back_home_page",
+  "Severity": "Medium"
+}
+       
+ 16. Сделать Commit changes (сохранить) изменения на веб интерфейсе. ----- добавить commit в поле "commit changes" -> отметить чекбокс "commit directory to the main branch" -> нажать кнопку "commit changes"
+ 17. Синхронизировать внешний и локальный репозиторий JSON ----- git pull
