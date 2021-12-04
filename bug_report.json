@@ -1,1 +1,8 @@
-
+{
+  "ID": 1,
+  "Title": "Button_'Home'_dont_click",
+  "Steps": "Open_web_and_click_button_'Home'",
+  "Facual_result": "When_button_click_nothing_is_happening",
+  "Expected_result": "When_button_click_we_back_home_page",
+  "Severity": "Medium"
+}
