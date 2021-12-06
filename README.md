@@ -1,4 +1,4 @@
-## GIT Homework - repository JSON 
+# GIT Homework - repository JSON 
 JSON
  1. Создать внешний репозиторий c названием JSON. `+ -> new repository -> заполнить поле "Repository name" -> чек бокс "Add a README file" -> кликнуть кнопку "create repository"`
  2. Клонировать репозиторий JSON на локальный компьютер. `git clone https://github.com/Pavlik1100/GIT.git`
